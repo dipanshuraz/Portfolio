@@ -239,7 +239,7 @@ header .downlad-btn:hover {
   position: relative;
   background-size: cover;
   z-index: 1;
-  background-image: url(../../assets/images/slider-1-1920x1080.jpg);
+  background-image: url("https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 
 .intro-section:before {
@@ -458,7 +458,7 @@ header .downlad-btn:hover {
   padding: 100px 0 70px;
   background-size: cover;
   z-index: 1;
-  background-image: url(../../assets/images/slider-2-1920x600.jpg);
+
   color: #fff;
 }
 
