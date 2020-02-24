@@ -17,6 +17,10 @@
 	<link href="assets/css/styles.css" rel="stylesheet">
 
 	<link href="assets/css/responsive.css" rel="stylesheet">
+	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+	</script>
+
+	<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 </head>
 
@@ -103,6 +107,14 @@
 						<h3><b>About me : </b></h3>
 
 					</div>
+					<div class="heading">
+						<h3><b>Proficiencies : </b></h3>
+
+					</div>
+					<div class="heading">
+						<h3><b>Tech Stack : </b></h3>
+
+					</div>
 				</div>
 				<div class="col-sm-8">
 					<p class="margin-b-50 text-dark">To gain confidence and fame using my potential in the field of “Web
@@ -110,6 +122,9 @@
 						express my innovative, creative skills for mutual growth and a patient learner and have decent grasping
 						power. Currently
 						Enrolled in Masai School's 24 Weeks Full Stack Developer Program</p>
+					<p class="margin-b-50 text-dark lead">
+						Front End | Data Structures & Algo
+					</p>
 
 					<div class="container">
 						<div class="row">
@@ -300,37 +315,83 @@
 		</div>
 
 	</section>
-	<!-- <section class="portfolio-section section">
+	<section class="portfolio-section section">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="heading">
-						<h3><b>Portfolio</b></h3>
-						<h6 class="font-lite-black"><b>MY WORK</b></h6>
+						<h3><b>My Work</b></h3>
+						<h6 class="font-lite-black"><b>Projects</b></h6>
 					</div>
 				</div>
 				<div class="col-sm-8">
 					<div class="portfolioFilter clearfix margin-b-80">
-						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
-						<a href="#" data-filter=".web-design"><b>WEB DESIGN</b></a>
-						<a href="#" data-filter=".branding"><b>ANDROID</b></a>
-						<h2>dfghjkl</h2>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-3">
+						<div class="card" style="width: 18rem;">
+							<img src="..." class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+									card's content.</p>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+									card's content.</p>
+
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-		<div class="portfolioContainer">
-		
 		</div>
-	</section> -->
+		</div>
+		<hr>
+	</section>
+	<section class="education-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Stats</b></h3>
+						<h6 class="font-lite-black"><b>Career</b></h6>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4><b>Coding</b></h4>
+							<h1 class="font-yellow"><b>1200 hr+</b></h1>
+						</div>
+						<div class="education margin-b-50">
+							<h4><b>Hackerrank Problems</b></h4>
+							<h1 class="font-yellow"><b>150+</b></h1>
+						</div>
+						<div class="education margin-b-50">
+							<h4><b>Github contributions</b></h4>
+							<h1 class="font-yellow"><b>250+</b></h1>
+						</div>
+						<div class="education margin-b-50">
+							<h4><b>SoftSkills</b></h4>
+							<h1 class="font-yellow"><b>100 Hr+</b></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
+	</section>
+	<div class="calendar">
+		<!-- Loading stuff -->
+		Loading the data just for you.
+	</div>
 	<div class="row">
 		<div class="col-md-12">
 			<footer>
-				<p class="copyright">
-					Made with <i class="fas fa-heart"></i></a>
+				<p class="copyright text-white">
+					Made with <i class="  fas fa-heart"></i></a>
 				</p>
 			</footer>
 
@@ -348,6 +409,10 @@
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 		crossorigin="anonymous"></script>
 
+	<script>
+		GitHubCalendar(".calendar", "dipanshuraz");
+		GitHubCalendar(".calendar", "dipanshuraz", { responsive: true });
+	</script>
 </body>
 
 </html>

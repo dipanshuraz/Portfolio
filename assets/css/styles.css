@@ -323,6 +323,8 @@ header .downlad-btn:hover {
 
 .portfolio-section {
   padding-bottom: 0;
+  background: #28023d;
+  color: #fff;
 }
 
 .portfolio-section .portfolioFilter {
